@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Child::VERSION
   s.authors     = ["Dai MIKURUBE"]
   s.email       = ["dmikurube@acm.org"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Child."
-  s.description = "TODO: Description of Child."
+  s.homepage    = "http://ecrebo.com"
+  s.summary     = "Summary of Child."
+  s.description = "Description of Child."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
