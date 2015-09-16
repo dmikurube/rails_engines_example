@@ -1,3 +1,9 @@
+PATH
+  remote: engines/child
+  specs:
+    child (0.0.1)
+      rails (~> 4.2.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -140,6 +146,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+  child!
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
