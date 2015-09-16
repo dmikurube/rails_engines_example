@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Child</title>
+  <%= stylesheet_link_tag    "child/application", media: "all" %>
+  <%= javascript_include_tag "child/application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
