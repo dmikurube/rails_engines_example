@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount Child::Engine, at: "/child"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
